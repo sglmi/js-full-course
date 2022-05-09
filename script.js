@@ -1,5 +1,4 @@
 console.log("Running script.js");
-let firstName = "John";
-let age = 34;
-let message = "My name is " + firstName + "and I am " + age;
-document.getElementById("msg").innerHTML = message;
+
+let userName = window.prompt("Enter your name: ");
+document.getElementById("msg").innerHTML = "Nice to meet you " + "<strong>" + userName + "</strong>"; 
